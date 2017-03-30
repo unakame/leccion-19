@@ -21,7 +21,7 @@ select.onchange= function(){
       img[j].classList.remove("sepia");
     }
   }
-  if(select.value=="invertir.colores"){
+  if(select.value=="invertir-colores"){
     for(var k=0;k<img.length;k++){
       img[k].classList.add("invertir-colores");
       img[k].classList.remove("blanco-negro");
