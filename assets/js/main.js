@@ -1,7 +1,3 @@
-
-
-
-
 var img= document.getElementsByClassName("personaje");
 var select= document.getElementById("select");
 select.onchange= function(){
